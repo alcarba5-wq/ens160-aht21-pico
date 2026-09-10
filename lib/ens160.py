@@ -87,9 +87,7 @@ class ENS160:
         aqi = self.get_aqi()
         tvoc = self.get_tvoc()
         eco2 = self.get_eco2()
-        temp = self.get_temperature()
-        rh = self.get_humidity()
         eco2_rating = self.interpret_eco2_level(eco2)
         tvoc_rating = self.interpret_tvoc_level(tvoc)
-        return aqi, tvoc, eco2, temp, rh, eco2_rating, tvoc_rating
+        return aqi, tvoc, eco2, eco2_rating, tvoc_rating
 
