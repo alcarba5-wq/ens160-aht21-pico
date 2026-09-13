@@ -1,4 +1,4 @@
-# ens160-aht21
+# ens160-aht21- OLED 0.96" 128x64 I2C
 HiLetGo ens160 + aht21 Micropython Library
 
 Tested on a RP2040 Tiny should work with any board using i2c.
